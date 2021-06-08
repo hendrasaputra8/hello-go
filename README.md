@@ -30,7 +30,7 @@ docker run  -itd  -p 9083:8083 my-app-image
 
 ```
 
-#GET IMAGE FROM DOCKER HUB
+# GET IMAGE FROM DOCKER HUB
 ```
 docker pull hitlur8/my-app-image
 
