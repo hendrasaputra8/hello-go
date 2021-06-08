@@ -5,6 +5,8 @@ FROM golang:alpine
 #update package and install git 
 RUN apk update && apk add git
 
+ENV PORT=8083
+
 #create dir /app
 WORKDIR /app
 
