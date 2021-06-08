@@ -24,4 +24,8 @@ OR
 
 docker container create -e PORT=8083 -p 9083:8083 my-app-image --> create container 
 docker start (container ID) --> start docker after create container
+
+running in the backgroup without env variable (because the env variable already input in dockerfile)
+docker run  -itd  -p 9083:8083 my-app-image 
+
 ```
