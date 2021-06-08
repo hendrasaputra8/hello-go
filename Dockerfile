@@ -6,6 +6,7 @@ FROM golang:alpine
 RUN apk update && apk add git
 
 ENV PORT=8083
+ENV INSTANCE_ID="docker run"
 
 #create dir /app
 WORKDIR /app
